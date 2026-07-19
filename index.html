@@ -3,76 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daniel Budd — Barriers</title>
-<style>
-  :root{
-    --navy:#1F457F; --navy-deep:#0E2A50; --gold:#FFD84D; --gold-deep:#E8A020;
-    --ink:#0E2A50; --muted:#5b6b82; --paper:#ffffff; --line:#e3e9f2;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:#f6f8fb;line-height:1.6;-webkit-font-smoothing:antialiased}
-  a{color:var(--navy);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;padding:88px 24px 76px;text-align:center;position:relative;overflow:hidden}
-  .hero::after{content:"";position:absolute;top:-120px;right:-120px;width:340px;height:340px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-deep));opacity:.9}
-  .hero-inner{max-width:720px;margin:0 auto;position:relative;z-index:1}
-  .kicker{letter-spacing:6px;font-size:13px;font-weight:700;color:var(--gold);text-transform:uppercase}
-  h1{font-size:52px;font-weight:800;letter-spacing:-1px;margin:14px 0 10px}
-  .tag{font-size:20px;color:#cddcf0;font-weight:400;max-width:560px;margin:0 auto}
-  .wrap{max-width:720px;margin:0 auto;padding:56px 24px}
-  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:32px;margin-bottom:24px}
-  h2{font-size:26px;font-weight:800;letter-spacing:-.3px;margin-bottom:8px}
-  h2 .bar{display:inline-block;width:6px;height:22px;background:linear-gradient(var(--gold),var(--gold-deep));border-radius:3px;margin-right:12px;vertical-align:-2px}
-  p{margin-bottom:14px;color:#33435a}
-  .muted{color:var(--muted);font-size:15px}
-  .btn{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:#0E2A50;font-weight:700;padding:12px 22px;border-radius:10px;margin-top:6px}
-  .btn:hover{text-decoration:none;filter:brightness(1.05)}
-  .links a{display:inline-block;margin-right:18px;font-weight:600}
-  footer{text-align:center;padding:36px 24px 60px;color:var(--muted);font-size:14px}
-  footer a{color:var(--muted)}
-</style>
+<title>Daniel Budd — Educator, Speaker &amp; App Developer</title>
+<meta name="description" content="Daniel Budd is an Apple Distinguished Educator, speaker, and app developer building AI-enhanced tools for teaching — including Barriers and Geometry Playground.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header class="hero">
+  <header class="hero hero-photo">
     <div class="hero-inner">
-      <div class="kicker">Free · iPad &amp; Mac</div>
-      <h1>Barriers</h1>
-      <p class="tag">Plan, teach, and reflect on your lessons — grounded in Universal Design for Learning, powered by on-device AI.</p>
+      <div class="kicker">Educator · Speaker · App Developer</div>
+      <h1>Daniel Budd</h1>
+      <p class="tag">Apple Distinguished Educator building AI-enhanced tools for teaching — and writing, speaking, and researching along the way.</p>
     </div>
   </header>
 
   <main class="wrap">
 
+    <section id="projects">
+      <h2><span class="bar"></span>Projects</h2>
+      <div class="project-grid">
+
+        <a class="project-card" href="https://dbbudd.github.io">
+          <div class="thumb"><img src="images/Geometry/Geomerty-Hero.png" alt="Geometry Playground"></div>
+          <div class="body">
+            <div class="eyebrow">Swift Playgrounds Curriculum</div>
+            <h3>Geometry Playground</h3>
+            <p>A six-chapter Swift Playgrounds curriculum teaching geometry through code — from simple shapes to a complete composite scene.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="barriers.html">
+          <div class="thumb"><img src="images/Barriers/Barriers-Hero.jpeg" alt="Barriers app"></div>
+          <div class="body">
+            <div class="eyebrow">Free · iPad &amp; Mac</div>
+            <h3>Barriers: UDL Reflection</h3>
+            <p>Plan, teach, and reflect on lessons — grounded in Universal Design for Learning, powered by on-device AI.</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
     <section class="card" id="about">
-      <h2><span class="bar"></span>About the app</h2>
-      <p>Barriers helps teachers plan better lessons, run them with a built-in classroom timer, and reflect on what worked — all in one document. It's grounded in CAST's Universal Design for Learning (UDL) Guidelines v3.0, and its AI features run entirely on your device.</p>
-      <p class="muted">Free. Private. No accounts, no subscriptions, and nothing is ever sent to a server.</p>
+      <h2 style="margin-bottom:24px"><span class="bar"></span>About me</h2>
+      <div class="about-grid">
+
+        <div class="avatar">
+          <img src="images/profile.png" alt="Daniel Budd">
+        </div>
+
+        <div>
+          <div class="about-head">
+            <div class="about-name">Daniel Budd</div>
+            <div class="affil apple">Apple Distinguished Educator · Apple Professional Learning Specialist</div>
+            <div class="affil school">School-Wide Technology Team Leader, Hong Kong International School</div>
+          </div>
+          <div class="about-bio">
+            <p>I'm an Apple Distinguished Educator and Apple Professional Learning Specialist from Perth, Western Australia. At Hong Kong International School, I led the design and development of an inclusive, modern Computer Science program by integrating it into the NCAS Media Arts standards.</p>
+            <p>I'm a strong advocate for the pedagogical integration of technology, with a particular focus on STEM education, robotics, and the evolving role of AI in shaping teaching and learning. As a speaker, author, and international educator, I've written extensively on coding, app development, and the impact of emerging technology on education — and delivered keynotes and workshops across Australia, South-East Asia, China, and the USA.</p>
+            <p class="muted">Educator, Speaker, Author, Researcher &amp; Learning Designer. Writer of Swift. Lover of design.</p>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/danielbudd/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+            <a href="https://x.com/danielbbudd" target="_blank" rel="noopener" aria-label="Twitter / X" title="Twitter / X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@DanielBBudd" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg>
+            </a>
+            <a href="https://github.com/dbbudd" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22l-.01 3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <section class="card" id="support">
-      <h2><span class="bar"></span>Support</h2>
-      <p>Need help, found a bug, or have a feature request? Get in touch and I'll get back to you.</p>
-      <p><a class="btn" href="mailto:support@danielbudd.com.au">Email support</a></p>
-      <p class="muted" style="margin-top:16px">Or reach out on social:</p>
-      <p class="links">
-        <a href="https://www.youtube.com/@DanielBBudd">YouTube</a>
-        <a href="https://x.com/danielbbudd">X</a>
-        <a href="https://github.com/dbbudd">GitHub</a>
+    <section id="videos">
+      <h2><span class="bar"></span>Recent videos</h2>
+      <div class="video-grid">
+        <div>
+          <div class="video-embed"><iframe src="https://www.youtube.com/embed/X9bCqTbQKLU" title="Building an App with Generative AI and Swift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe></div>
+          <div class="video-caption">Building an App with Generative AI and Swift</div>
+        </div>
+        <div>
+          <div class="video-embed"><iframe src="https://www.youtube.com/embed/v9YnOPm7b6o" title="Developing coding initiatives at your school" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe></div>
+          <div class="video-caption">Developing Coding Initiatives at Your School</div>
+        </div>
+        <div>
+          <div class="video-embed"><iframe src="https://www.youtube.com/embed/1wqshSAsD80" title="Swift Student Challenge: Student Mentorship Webinar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe></div>
+          <div class="video-caption">Swift Student Challenge: Student Mentorship Webinar</div>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:20px;text-align:center">
+        <a href="https://www.youtube.com/@DanielBBudd">See all videos on YouTube →</a>
       </p>
-    </section>
-
-    <section class="card" id="privacy-teaser">
-      <h2><span class="bar"></span>Privacy</h2>
-      <p>Barriers collects no personal data. Everything stays on your device.</p>
-      <p><a href="/privacy.html">Read the full privacy policy →</a></p>
     </section>
 
   </main>
 
   <footer>
-    © 2026 Daniel Budd · <a href="/privacy.html">Privacy</a> · <a href="mailto:support@danielbudd.com.au">Support</a>
+    © 2026 Daniel Budd · <a class="email-link" href="#" data-u="dbbudd" data-d="gmail.com">Contact</a>
   </footer>
+
+  <script>
+  document.querySelectorAll('.email-link').forEach(function(a){
+    var addr = a.dataset.u + '@' + a.dataset.d;
+    a.href = 'mailto:' + addr;
+    if (a.dataset.show) a.textContent = addr;
+  });
+  </script>
 
 </body>
 </html>
