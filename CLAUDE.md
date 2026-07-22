@@ -50,10 +50,9 @@ Tone follows the "no-waffle" brand standard: direct, high-signal, minimal copy. 
 - App preview videos for the App Store must be app-footage-only screen captures — marketing promos get rejected.
 - JPG derivatives of screenshots are used on-page; matching PNG originals in `images/Barriers/` are source files, not referenced by HTML.
 
-## 3. Current Status & Pending Work (as of 2026-07-21)
+## 3. Current Status & Pending Work (as of 2026-07-22)
 
-- **App status:** Barriers submitted to App Store review; manual release selected, to be aligned with YouTube Video 1 launch.
-- **Pending on approval:** swap the App Store badge `href="#"` in the barriers.html hero for the real App Store link.
+- **App status:** Barriers is LIVE on the App Store — https://apps.apple.com/au/app/barriers-udl-reflection/id6792173689 (hero badge on barriers.html links to it).
 - **Reserved slot:** right column of the Privacy Policy section awaits the "Privacy by Design" video embed (`.video-embed` block).
 - **Known asset issue:** the AI-generated lifestyle image (hands + iPad) has garbled text artifacts — needs a real screenshot composited before public use.
 - **Possible optimization:** barriers.html carries 8 iframes; if load feels heavy, convert embeds to click-through thumbnail cards using the existing (currently unused) `.video-card` styles.
