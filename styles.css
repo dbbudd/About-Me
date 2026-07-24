@@ -124,3 +124,12 @@ footer a{color:var(--muted)}
 .lightbox img{max-width:min(1400px,94vw);max-height:90vh;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
 .lightbox figcaption{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:#cddcf0;font-weight:600;font-size:15px}
 .gallery figcaption{font-size:13px;color:var(--muted);margin-top:8px;text-align:center;font-weight:600}
+
+/* About section: 70/30 split on desktop */
+@media (min-width:821px){
+  .support-grid.about-split{grid-template-columns:7fr 3fr;align-items:start}
+  .about-split .support-actions{padding-top:50px}
+}
+.about-split .support-actions .btn{width:220px;text-align:center}
+
+.about-callout{margin-top:20px;font-size:18px;font-weight:700;color:var(--navy-deep);text-align:center}
